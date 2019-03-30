@@ -33,4 +33,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>Releases</id>
+      <name>MyCo Internal Repository</name>
+      <url>http://localhost:8083/repository/SIG-2019-RELEASE/</url>
+    </repository>
+    <snapshotRepository>
+      <id>SNapshots</id>
+      <name>MyCo Internal SNapshot Repository</name>
+      <url>http://localhost:8083/repository/SIG-2019/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
